@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busard Design</title>
+    <!-- flavicon -->
+    <link rel="icon" href="assets/logo/Logo.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <header id="home">
+        <nav class="nav">
+            <img class="logo" src="assets/logo/LOGO.jpg" alt="">
+            <div class="nav-link">
+                <span class="btnlink"><a href="#home" class="a active">Accueil</a></span>
+                <span class="btnlink"><a href="#about" class="a">A propos</a></span>
+                <span class="btnlink"><a href="#service" class="a">Services</a></span>
+                <span class="btnlink"><a href="#contact" class="a">Contact</a></span>
+            </div>
+            <img class="bar-menu" src="assets/icon/menu-regular-48.png" alt="">
+        </nav>
+        <h1>
+            busard <span>d</span>esign
+        </h1>
+        <h4>
+            Faites de nous votre partenaire et nous ferons l'impossible!
+        </h4>
+    </header>
+    <section id="about">
+        <div class="partenaire">
+            <img src="assets/partenaire/client-2.png" alt="">
+            <img src="assets/partenaire/client-3.png" alt="">
+        </div>
+        <h1>qui sommes nous!</h1>
+        <div class="about-us">
+            <div class="about-t">
+                <div class="about-text">
+                    <p><span>Busard Design</span> est une start Up en graphique et web design, le design graphique est l'un des services pour faire parler de nous, que se soit pour conçevoir les outils de communication qui représenteront votre nouvelle entreprise, nous serons très heureux de mettre notre créativité à votre service pour atteindre vos objectifs communicationnels.
+                    <br><br>Fondée en 2022 par des jeunes embitieux, Busard Design a conquis plusieurs marchés sur le térritoire congolais.Nous sommes une équipe ultra motivée et créative ce qui nous differencie des autres.
+                </p>
+                </div>
+                <input type="checkbox" id="check">
+                
+                <div class="about-text2">
+                    <p>En petit rappel: nous sommes spécialisés dans le graphisme design, le web design et l'architecture des ordinateurs, nous sommes toujours très content de faire l'impossible et de vous guider sur l'impréssion de vos produits. Nous sommes plutot bon dans ce domaine.
+                    <br>Nous nous occupons de la conception graphique jusqu'à à la réalisation.</p>
+                </div>
+                <label for="check" class="btn-about">Click...!</label>
+            </div>
+            <div class="slide-about">
+                <div class="gallery-about">
+                    <img class="img-about" src="assets/images/entreprise-informatique-scaled.jpeg" alt="">
+                    <img class="img-about" src="assets/images/ecole-des-metiers-de-l-internet.jpg" alt="">
+                    <img class="img-about" src="assets/images/faille-intel-os.jpg" alt="">
+                    <img class="img-about" src="assets/images/Design.png" alt="">
+                    <img class="img-about active" src="assets/images/Header_web_2600x1060-scaled-1-1024x418.jpg" alt="">
+                </div>
+                <div class="btn-command">
+                    <div onclick="side_slide(-1)" class="btn prev"><img src="assets/icon/chevron-left-regular-48.png" alt=""></div>
+                    <div onclick="side_slide(1)" class="btn next"><img src="assets/icon/chevron-right-regular-48.png" alt=""></div>
+                </div>
+                <div class="btn-slide">
+                    <button onclick="btn_img(1)" class="btm"></button>
+                    <button onclick="btn_img(2)" class="btm active"></button>
+                    <button onclick="btn_img(3)" class="btm"></button>
+                    <button onclick="btn_img(4)" class="btm"></button>
+                    <button onclick="btn_img(5)" class="btm"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="separe">
+
+    </div>
+    <section id="service">
+        <h1 class="h1">services</h1>
+        <p>
+                Nous accompagnons nos clients en méttant à leur service une expertise graphique et informatique pour réussir leurs opérations de communication. Faites appel à notre équipe pour l'ensemble de vos travaux.
+            Chaque professionnel dans son domaine s'adapte aux marchés  afin de satisfaire vos besoins.
+           <br>Voici les services proposés:
+        </p>
+        <div class="services">
+            <div class="img-service">
+                <img src="assets/images/etude-design-graphique-perpignan-l-idem.jpg" alt="">
+                <a href="css/gra.html">Graphique Design</a>
+            </div>
+            <div class="img-service">
+                <img src="assets/images/Web-Development-1.jpg" alt="">
+                <a href="css/web.html">Web design</a>
+            </div>
+            <div class="img-service">
+                <img src="assets/images/17.jpg" alt="">
+                <a href="css/maint.html">maintenance des ordinateurs</a>
+            </div>
+            <div class="img-service">
+                <img src="assets/images/recrutement-technicien-maintenance-informatique.jpg" alt="">
+                <a href="css/other.html">Autres</a>
+            </div>
+        </div>
+        <div class="release-service">
+            <h1>Nos réalisations</h1>
+            <div class="wrapper">
+                <nav>
+                    <div class="items">
+                        <span class="item active" data-name="All">All</span>
+                        <span class="item" data-name="Design">graphique design</span>
+                        <span class="item" data-name="Web">Web Design</span>
+                        <span class="item" data-name="Maintenance">Maintenance</span>
+                    </div>
+                </nav>
+                <!-- filter d'image -->
+                <div class="gallery-service">
+                    <div class="img-service" data-name="Web"><span><img src="assets/images/IMG_20231011_154735_667.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Design"><span><img src="assets/images/logo-design.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Design"><span><img src="assets/images/week-end.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Maintenance"><span><img src="assets/images/ca.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Maintenance"><span><img src="assets/images/camera-surveillance-connectee.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Web"><span><img src="assets/images/website-development.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Design"><span><img src="assets/images/Design.png" alt=""></span></div>
+                    <div class="img-service" data-name="Web"><span><img src="assets/images/web-development-services.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Design"><span><img src="assets/images/mandalas-1084082_1280.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Maintenance"><span><img src="assets/images/faille-intel-os.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Web"><span><img src="assets/images/web.jpg" alt=""></span></div>
+                    <div class="img-service" data-name="Maintenance"><span><img src="assets/images/17.jpg" alt=""></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contactez nous</h1>
+        <p>Appellez-nous ou envoyer nous un email au <br><br><a href="">busarddesin551@gmail.com</a></p><br>
+        <p>Téléphone: <br><br> +242 065539061 <br>+242 057527756(Whatsapp)</p>
+    </section>
+    <footer>
+        <div class="Copyright">
+            <a>Copyright &copy; NineFoster </a>
+        </div>
+        <div class="contact">
+            <div class="instagram"><a href="https://www.instagram.com/explore/"><img src="assets/logo/instagram.jpg" alt=""><span>Instagram</span></a></div>
+            <div class="facebook"><a href="https://www.facebook.com/profile.php?id=100095016870015"><img src="assets/icon/facebook-circle-logo-48.png" alt=""><span>Facebook</span></a></div>
+            <div class="twitter"><a href="https://twitter.com/home"><img src="assets/logo/Twitter.png" alt=""><span>Twitter</span></a></div>
+            <div class="twitter"><a href=""><img src="assets/logo/linkedin.png" alt=""><span>Linkedin</span></a></div>
+        </div>
+    </footer>
+    <script src="javascript/java.js"></script>
+</body>
+</html>
